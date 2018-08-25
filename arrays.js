@@ -9,6 +9,8 @@ function destructivelyAddElementToBeginningOfArray(Array, element){
 Array.unshift(element); 
 return Array;
 }
+//
+//
 //accessElementInArray
 function accessElementInArray(Array, index){
     return Array[index];
