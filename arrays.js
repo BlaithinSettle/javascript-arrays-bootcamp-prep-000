@@ -12,6 +12,11 @@ return Array;
 //addElementToEndOfArray
 function addElementToEndOfArray(Array, element)
 //destructivelyAddElementToEndOfArray
+function destructivelyAddElementToEndOfArray(Array, element){
+    Array.push(element)
+    return Array;
+}
+
 //accessElementInArray
 function accessElementInArray(Array, index){
     return Array[index];
