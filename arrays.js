@@ -10,7 +10,10 @@ Array.unshift(element);
 return Array;
 }
 //addElementToEndOfArray
-function addElementToEndOfArray(Array, element)
+function addElementToEndOfArray(Array, element){
+  Array = [...Array, element]
+     return Array;
+}
 //destructivelyAddElementToEndOfArray
 
 
