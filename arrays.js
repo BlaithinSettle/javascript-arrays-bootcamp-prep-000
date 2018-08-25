@@ -30,3 +30,6 @@ function destructivelyRemoveElementFromEndOfArray(Array) {
     return Array;
 }
 //removeElementFromEndOfArray
+function removeElementFromEndOfArray(Array){
+    return Array.slice(0, iceCreams.length-1)
+}
